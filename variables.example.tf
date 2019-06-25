@@ -5,7 +5,7 @@ variable "caasp-regkey" {
 
 variable "jeos_location" {
   description = "sles15.1-jeos location"
-  default     = "../SLES15-SP1-JeOS.x86_64-15.1-OpenStack-Cloud-GMC3.qcow2"
+  default     = "../SLES15-SP1-JeOS.x86_64-15.1-OpenStack-Cloud-GM.qcow2"
 }
 
 variable "authorized_keys" {
