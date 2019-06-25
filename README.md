@@ -7,6 +7,7 @@ https://download.suse.com/Download?buildid=OE-3enq3uys~
 ```
 
 Log into caasp-node-0 as a user "sles".
+(Wait until the nodes have been patched and rebooted)
 
 1. Generate ssh-key.
 
