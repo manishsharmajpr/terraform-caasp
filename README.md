@@ -60,7 +60,7 @@ skuba node join --role master --user sles --sudo --target caasp-node-2 worker-2
 8. Verify cluster status and enjoy.
 
 ```
-caaspctl cluster status
+skuba cluster status
 
 kubectl --kubeconfig ./admin.conf get nodes
 
