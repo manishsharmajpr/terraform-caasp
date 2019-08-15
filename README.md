@@ -53,9 +53,9 @@ skuba node bootstrap --user sles --sudo --target caasp-node-0 master
 7. Add workers to the cluster.
 
 ```
-skuba node join --role master --user sles --sudo --target caasp-node-1 worker-1
+skuba node join --role worker --user sles --sudo --target caasp-node-1 worker-1
 
-skuba node join --role master --user sles --sudo --target caasp-node-2 worker-2
+skuba node join --role worker --user sles --sudo --target caasp-node-2 worker-2
 ```
 
 8. Verify cluster status and enjoy.
